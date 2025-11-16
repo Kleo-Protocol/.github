@@ -1,6 +1,7 @@
 <div align="center">
   <img src="/kleo.svg" height=150/>
 </div>
+
 # Kleo
 Access to credit in emerging economies depends almost entirely on intermediaries, banks, lenders, and financial institutions who act as trusted third parties to evaluate risk and enforce repayment. While this model works for formal borrowers, it fails for the majority of individuals in *Latin America*, where most workers lack formal income, collateralizable assets, or a credit history. As a result, meaningful participation in financial systems is restricted, and millions rely on informal lending networks with abusive terms.
 Check our white paper :) [whitepaper](https://docs.google.com/document/d/1cprLlST7alIFdnsflJ7I-The5Y79KM5TBG_fvv-QDZk/edit?usp=sharing)
