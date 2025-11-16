@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/kleo.svg" height=150/>
+  <img src="/kleo.svg" height='150'/>
 </div>
 
 [Link to our pitch](https://youtu.be/01jXBF8TY5s)
