@@ -50,7 +50,12 @@ Any remaining loss is distributed proportionally among all lenders—mathematica
 - Ink v6
 - Hydration(will be implemented within the next 2 weeks)
 
-## Backend 
+### Deployed contracts
+loan instance:  `0xc6d7f618aceb4189dfd7a2fb703efb3811b8ecf0`
+loan registry: `0x7eca749c9a303458a743fc019def1abf26d0e315`
+trust oracle: `0xb129b9633d3855171dfd2a4e7b0b309f99cfb5c5`
+
+## Backend (will be implemented)
 - Golang
 - Neo4j
 
