@@ -1,64 +1,80 @@
 <div align="center">
-  <img src="/kleo.svg" height='150'/>
+  <img width="1117" height="254" alt="Kleo Banner" src="https://github.com/user-attachments/assets/18f0796c-0183-43f2-8907-9ab71701fe52" />
 </div>
-
-[Link to our pitch](https://youtu.be/01jXBF8TY5s)
-[Link to our demo](https://youtu.be/01jXBF8TY5s)
-
-# Kleo
+<hr>
 Access to credit in emerging economies depends almost entirely on intermediaries, banks, lenders, and financial institutions who act as trusted third parties to evaluate risk and enforce repayment. While this model works for formal borrowers, it fails for the majority of individuals in *Latin America*, where most workers lack formal income, collateralizable assets, or a credit history. As a result, meaningful participation in financial systems is restricted, and millions rely on informal lending networks with abusive terms.
-Check our white paper :) [whitepaper](https://docs.google.com/document/d/1cprLlST7alIFdnsflJ7I-The5Y79KM5TBG_fvv-QDZk/edit?usp=sharing)
-
 
 # Why Kleo?
-Kleo combines 3 essential pilar to build *trust* between lendors and borrowers:
-- Trust. A consenus protocol that relies on the trust between lendors, the amount of lendors and the score of the borrowers.
-- Math. Through probabilistic models and some algorithms we can build trust and let lenders the amount of trust they should put into a borrower.
-- Credit score onchain. Leveraging all these txs to prove that some users actually deserve benefits for they good reputation.
+Kleo is a **tokenless**, undercollateralized lending protocol that turns **real social trust** into **measurable on-chain risk**, so people can access credit without collateral, and lenders can earn yield without becoming underwriters 24/7.
 
-# How Kleo ? 
-Kleo enables lending without collateral by combining overfunding, distributed trust scoring, and verifiable repayment proofs:
+Kleo is built on 3 pillars:
 
-1. Multi-Lender Overfunding
+- **Star System (Reputation)**
+  A dynamic on-chain reputation score (“Stars”) that grows with successful repayment and responsible vouching. Stars unlock **higher borrowing limits**, **better rates**, and **more influence** in the trust network.
 
-Instead of one lender taking all the risk, each loan is funded by several lenders who collectively contribute more than the borrower receives.
-The extra amount becomes a risk buffer that protects lenders from default.
+- **Web-of-Trust Vouching (Accountability Layer)**
+  Loans require one or more **vouchers** who back the borrower. Vouchers are rewarded when borrowers repay, and penalized when they don’t, making trust expensive to fake and valuable to maintain.
 
-2. Borrower Trust Score
+- **Sustainable, Tokenless Incentives**
+  Lender yield comes from **real borrower interest**, not emissions. Lenders can stay passive (deposit and earn) or vouch for borrowers to earn **boosted returns**, all while keeping the system economically grounded and scalable.
 
-Borrowers are evaluated through a decentralized trust score built on repayment behavior, identity verification, and social signals.
-Lenders only participate if the borrower meets their trust threshold.
+# How Kleo?
+Kleo enables undercollateralized loans through a **shared lending pool**, a **reputation layer**, and a **default loss waterfall** that makes outcomes transparent and predictable:
 
-3. Verifiable Repayment Flow
+1. Lending Pool (Core Liquidity Engine)
+Lenders deposit stablecoins into a pooled liquidity engine.
+They earn a base yield funded by borrower interest—no active management required.
 
-Every repayment is timestamped, cryptographically signed, and publicly visible.
-Borrowers cannot fake payments, hide missed installments, or manipulate their history.
+2. Borrow Requests (No Collateral)
+Borrowers request a loan amount and term without posting collateral.
+Approval depends on reputation + being backed by vouchers (quality and count scale with loan size).
 
-4. Deterministic Loss Distribution
+3. Vouching Requirement (Trust -> Underwriting)
+To unlock a loan, borrowers must get backed by vouchers who meet minimum reputation requirements.
+Vouchers can opt into backing a borrower to earn boosted yield and reputation gains if the loan performs.
 
-If a default occurs, the buffer absorbs the loss first.
-Any remaining loss is distributed proportionally among all lenders—mathematically predictable, transparent, and fair.
+4. Verifiable Repayment (On-Chain Proofs)
+Repayments are recorded on-chain: timestamped, signed, and publicly auditable.
+Borrowers build Stars by paying on time; missed payments are visible and affect reputation.
 
+5. Default Handling (Deterministic Loss Waterfall)
+If a borrower defaults, losses are absorbed in a predefined order:
+- voucher backing absorbs losses first (where applicable),
+- then protocol reserves/buffers (if configured),
+- then the remaining impact is distributed proportionally at the pool level.
+
+This makes risk **transparent**, discourages Sybil/collusion through slow reputation buildup + multi-voucher requirements, and keeps the system scalable for micro-loans.
+
+
+<hr>
 
 # Architecture
 ## Frontend
-- NextJs
-- Scaffold typink(polkaVM)
-- Contratos en ink v6
+- Next.js
+- Scaffold TypInk
+
+## SDK
+- Node.js
 
 ## Smart Contracts
 - Ink v6
-- Hydration(will be implemented within the next 2 weeks)
+<hr>
 
-### Deployed contracts
-loan instance:  `0xc6d7f618aceb4189dfd7a2fb703efb3811b8ecf0`
-loan registry: `0x7eca749c9a303458a743fc019def1abf26d0e315`
-trust oracle: `0xb129b9633d3855171dfd2a4e7b0b309f99cfb5c5`
+## Deployed contracts
+Add soon.
 
-## Backend (will be implemented)
-- Golang
-- Neo4j
+<hr>
 
-# Workflow scheme
-<img width="1050" height="3142" alt="image" src="https://github.com/user-attachments/assets/706e47d6-255c-4f13-88fe-228df2ec77ba" />
+# Usual flow for users
+<img width="2562" height="1560" alt="flow lender and borrower" src="https://github.com/user-attachments/assets/dec1dac8-04ef-4264-9ab5-66900d5b0548" />
+
+<hr>
+
+> Kleo is launching soon, on Polkadot.
+>
+> If you want early access to undercollateralized DeFi credit:
+>
+> 👉 https://kleo.finance
+>
+> Credit that fits you.
 
