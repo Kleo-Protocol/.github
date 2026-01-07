@@ -61,12 +61,11 @@ This makes risk **transparent**, discourages Sybil/collusion through slow reputa
 <hr>
 
 ## Deployed contracts on Asset Hub - Paseo Relay
-Config Contract: 0x7d5760444f5c7905d0489253958f7e071882c9c1 | 5Eu3oHbnsTa4KLbPJSrnbHyrgoFwMZjmqoTtsmRhaYZhFhFJ \
-Lending Pool Contract: 0xe59e8e263757156190de42e76f76602fd39c013e | 5HFmvWwpEYQsHPbbXx4jm1iWRNJunteHcw5G6m6VaBon5cZg \
-Reputation Contract: 0x8c80413949a52ace94cda021b19a6ebd0339f51d | 5FEvfGfooa8PkUSQFRUHe5e5VzvduKR2DfttT2W2bLgnXA7r \
-Vouch Contract: 0x14b3656b56e1c3330b1cd8e1a9759afbe66d9bff | 5CXr791zfm2wvLq8RwLjv72MRjbpSXZ27E5DQkY2RXT78nib \
-Loan Manager Contract: 0xd5fc4af8a67169342d642fbf94d56a8327393f94 | 5GuH198xAJtPnn8aNmehC3Ho7bG9jJgxdN8pTw1xcnk4jE4x
-
+Config address: 0xc04fc43ab259f0fa434aabecbefe14bfd1f1b015 \
+Reputation address: 0xa1a2f9a965455b0947bee86ae18ad4e63ee2e883 \
+Lending Pool address: 0x4efc153ecf35c8254a5118287f92e89f508de891 \
+Vouch address: 0x8ab2a6dc7b0e5609926b34434562a9ddaeaeec96 \
+Loan Manager address: 0x7b6890f3dc66bfe0fbc626c3fd4fe7cf671ba0f2
 
 <hr>
 
