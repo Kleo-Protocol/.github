@@ -61,11 +61,11 @@ This makes risk **transparent**, discourages Sybil/collusion through slow reputa
 <hr>
 
 ## Deployed contracts on Asset Hub - Paseo Relay
-Config address: 0xc04fc43ab259f0fa434aabecbefe14bfd1f1b015 \
-Reputation address: 0x23698d954b2e170b6564535aa87831555d1aacfb \
-Lending Pool address: 0x20cf41bc974daee3c695085723967b394567dfc0 \
-Vouch address: 0x137c8526032695a056f763dc98a2fae157105f6b \
-Loan Manager address: 0x6bdf4d1be5ed893759e81431705c77a53b521731 
+Config 0xc04fc43ab259f0fa434aabecbefe14bfd1f1b015 \
+Reputation 0x809a8d6209b8978917588c487d91ba8a7b673b99 \
+Lending Pool 0x5d8be013623918e5e9873f27ab824cfc42544ddc \
+Vouch 0x0e11d6bdd59f54f22c76a4974366920c1a2f5bb9 \
+Loan Manager 0x721703e421e9b8e70cf9cc9a9537c1b60145acd9
 
 <hr>
 
